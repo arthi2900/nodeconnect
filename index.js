@@ -65,6 +65,7 @@ trailer:"https://www.youtube.com/embed/NgsQ8mVkN8w"
 }
 ];
 //app.use (middle ware=>intercept=>change and converting body to json)
+app.use(core());
 app.use(express.json());
 //const MONGO_URL = "mongodb://localhost";
 
